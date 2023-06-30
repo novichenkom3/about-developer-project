@@ -132,3 +132,28 @@ img {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 530px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .big-font {
+    font-size: 35px;
+  }
+
+  .contact-me,
+  .about-me {
+    padding: 15px;
+  }
+
+  .index-img {
+    display: none;
+  }
+
+  .btn-pink {
+    display: block;
+    margin-top: 35px;
+    padding: 10px;
+  }
+}
