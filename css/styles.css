@@ -131,6 +131,7 @@ img {
 .about-me-p {
   text-align: center;
   padding: 10px;
+  margin: 0 15px;
 }
 
 @media (max-width: 530px) {
@@ -155,5 +156,9 @@ img {
     display: block;
     margin-top: 35px;
     padding: 10px;
+  }
+
+  .info-img {
+    margin-bottom: 20px;
   }
 }
