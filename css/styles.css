@@ -1,0 +1,134 @@
+:root {
+  --main-color: #2e3872;
+  --shadow: 7px 5px 17px #4d5ba7b6;
+  --accent-color: #eb2fbc;
+  --border: 1px solid var(--main-color);
+}
+
+body {
+  margin: 80px auto;
+  max-width: 800px;
+}
+
+h1,
+.card-title {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.big-font {
+  text-align: center;
+  font-size: 50px;
+  color: var(--accent-color);
+}
+
+.description {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 20px;
+  opacity: 0.8;
+  color: var(--main-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-me {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 15px;
+  border: var(--border);
+  padding: 20px 25px;
+  box-shadow: var(--shadow);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.about-me {
+  color: var(--main-color);
+  border-radius: 15px;
+  border: var(--border);
+  padding: 20px 25px;
+  box-shadow: var(--shadow);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.contact-me:hover {
+  background-color: var(--accent-color);
+}
+
+.about-me:hover {
+  background-color: var(--accent-color);
+}
+
+.texts {
+  display: flex;
+}
+
+.text {
+  margin: 30px;
+  border: var(--border);
+  border-radius: 15px;
+  padding: 15px 10px;
+  text-align: justify;
+  color: var(--main-color);
+}
+
+.email {
+  display: block;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.email:hover {
+  color: var(--accent-color);
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+img {
+  box-shadow: var(--shadow);
+}
+
+.btn-pink {
+  background-color: white;
+  border: var(--border);
+  box-shadow: var(--shadow);
+  margin-top: 10px;
+}
+
+.btn-pink:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.card-app {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.about-me-p {
+  text-align: center;
+  padding: 10px;
+}
